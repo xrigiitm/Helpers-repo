@@ -4,7 +4,7 @@ using System.Numerics;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
 
-public class ARController : MonoBehaviour
+public class ARImageTrackingController : MonoBehaviour
 {
     [SerializeField] ARTrackedImageManager m_TrackedImageManager;
     [SerializeField] Transform objectToBePlaced;
